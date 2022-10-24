@@ -8,7 +8,7 @@
 *
 ******************************************************************************
 *
-* Copyright (c) 2015-2021, Infineon Technologies AG
+* Copyright (c) 2015-2022, Infineon Technologies AG
 * All rights reserved.                        
 *                                             
 * Boost Software License - Version 1.0 - August 17th, 2003
@@ -48,6 +48,7 @@
 /*******************************************************************************
 * Macros
 *******************************************************************************/
+
 #define BLINKY_TASK_NAME           ("Blinky")
 #define BLINKY_TASK_STACK_SIZE     (configMINIMAL_STACK_SIZE)
 #define BLINKY_TASK_PRIORITY       (tskIDLE_PRIORITY + 1)
